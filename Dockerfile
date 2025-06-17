@@ -24,4 +24,5 @@ RUN pip install --no-cache-dir --upgrade pip \
 COPY . .
 
 # Run the app on port 8080
-CMD ["python", "api.py"]
+CMD ["python", "main.py"]  # or whatever your actual file name is
+
